@@ -1,11 +1,15 @@
 import { Chrono } from 'react-chrono'
 import './timeline.css';
-import AnalyseComponent from './items/analyseFase/analyseComponent';
+import ItemManager from './items/itemManager';
+
+import AnalyseItem from './items/analyseFase/analyseItem';
 
 
 
 export default function TimeLine() {
-    const items = getItems();
+    const items = [
+        AnalyseItem,
+    ];
     
     return (
         <div className='timeline-container'>
@@ -22,21 +26,4 @@ export default function TimeLine() {
             />
         </div>
     )
-}
-
-function getItems() {
-    const testItem = createItem("Analyse fase", AnalyseComponent);
-    
-    
-    return [
-        testItem,
-    ];
-}
-
-
-function createItem(title, itemContentComponent) {
-    return {
-        title: title,
-        timelineContent: itemContentComponent()
-    };
 }
