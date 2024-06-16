@@ -3,12 +3,16 @@ import './timeline.css';
 import ItemManager from './items/itemManager';
 
 import AnalyseIntro from './items/analyseFase/analyseIntro';
+import AnalyseConclusie from './items/analyseFase/analyseConclusie'
+import DesignIntro from './items/designFase/designInto'
 
 
 
 export default function TimeLine() {
     const items = [
         AnalyseIntro,
+        AnalyseConclusie,
+        DesignIntro,
     ];
     
     return (

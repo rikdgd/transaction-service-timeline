@@ -8,6 +8,7 @@ class ItemManager {
      * @param {string} cardSubtitle - The subtitle of the card.
      * @param {string} cardDetailedText - The detailed text of the card.
      * @param {string} imageUri - The URI of the image.
+     * @param {HTMLElement} customContent - The custom HTML content to display. 
      * @return {Object} An object representing an item with the given properties.
      */
     createItemFromProps(
@@ -17,6 +18,7 @@ class ItemManager {
         cardSubtitle,
         cardDetailedText,
         imageUri,
+        customContent,
     ) {
         let item = {
             title: title,
@@ -35,6 +37,8 @@ class ItemManager {
                 }
             }
         }
+        
+        if (customContent) item.timelineContent = customContent;
         
         return item;
     }
