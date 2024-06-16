@@ -2,13 +2,13 @@ import { Chrono } from 'react-chrono'
 import './timeline.css';
 import ItemManager from './items/itemManager';
 
-import AnalyseItem from './items/analyseFase/analyseItem';
+import AnalyseIntro from './items/analyseFase/analyseIntro';
 
 
 
 export default function TimeLine() {
     const items = [
-        AnalyseItem,
+        AnalyseIntro,
     ];
     
     return (
