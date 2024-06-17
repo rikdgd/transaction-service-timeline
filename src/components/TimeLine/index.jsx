@@ -17,6 +17,7 @@ import TestingIntro from './items/testFase/intro';
 import UnitTesting from './items/testFase/unitTesting';
 import EndToEndTesting from './items/testFase/endToEndTesting';
 import PerformanceTesting from './items/testFase/performanceTesting';
+import LocusttestResults from './items/testFase/locustTestResults';
 
 
 
@@ -38,6 +39,7 @@ export default function TimeLine() {
         UnitTesting,
         EndToEndTesting,
         PerformanceTesting,
+        LocusttestResults,
     ];
     
     return (
