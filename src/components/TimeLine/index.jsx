@@ -13,19 +13,31 @@ import OntwikkelIntro from './items/ontwikkelFase/ontwikkelIntro';
 import TransactionStruct from './items/ontwikkelFase/transacionStruct';
 import TransactionDBEntry from './items/ontwikkelFase/transactionEntry';
 
+import TestingIntro from './items/testFase/intro';
+import UnitTesting from './items/testFase/unitTesting';
+import EndToEndTesting from './items/testFase/endToEndTesting';
+import PerformanceTesting from './items/testFase/performanceTesting';
+
 
 
 export default function TimeLine() {
     const items = [
         AnalyseIntro,
         AnalyseConclusie,
+        
         DesignIntro,
         DesignMicroservices,
         DesignC3Diagram,
+        
         MogelijkeAanpassingen,
         OntwikkelIntro,
         TransactionStruct,
         TransactionDBEntry,
+        
+        TestingIntro,
+        UnitTesting,
+        EndToEndTesting,
+        PerformanceTesting,
     ];
     
     return (
