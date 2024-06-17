@@ -10,6 +10,7 @@ function App() {
     <div className="app-container">
       <h1>Transaction service timeline</h1>
       <TimeLine/>
+      <h2>future...</h2>
     </div>
   )
 }

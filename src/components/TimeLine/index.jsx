@@ -1,10 +1,17 @@
 import { Chrono } from 'react-chrono'
 import './timeline.css';
-import ItemManager from './items/itemManager';
 
 import AnalyseIntro from './items/analyseFase/analyseIntro';
 import AnalyseConclusie from './items/analyseFase/analyseConclusie'
+
 import DesignIntro from './items/designFase/designInto'
+import DesignMicroservices from './items/designFase/designMicroserviceChanges';
+import DesignC3Diagram from './items/designFase/designC3Diagram';
+import MogelijkeAanpassingen from './items/designFase/mogelijkeAanpassingen';
+
+import OntwikkelIntro from './items/ontwikkelFase/ontwikkelIntro';
+import TransactionStruct from './items/ontwikkelFase/transacionStruct';
+import TransactionDBEntry from './items/ontwikkelFase/transactionEntry';
 
 
 
@@ -13,6 +20,12 @@ export default function TimeLine() {
         AnalyseIntro,
         AnalyseConclusie,
         DesignIntro,
+        DesignMicroservices,
+        DesignC3Diagram,
+        MogelijkeAanpassingen,
+        OntwikkelIntro,
+        TransactionStruct,
+        TransactionDBEntry,
     ];
     
     return (
@@ -20,6 +33,8 @@ export default function TimeLine() {
             <Chrono 
                 items={items} 
                 mode="VERTICAL_ALTERNATING"
+                mediaSettings={{ align: 'right', fit: 'contain' }}
+                // mediaHeight={400}
                 theme={{
                     primary: '#88D498',
                     secondary: '#1A936F',
