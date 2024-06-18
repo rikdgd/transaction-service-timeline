@@ -19,6 +19,11 @@ import EndToEndTesting from './items/testFase/endToEndTesting';
 import PerformanceTesting from './items/testFase/performanceTesting';
 import LocusttestResults from './items/testFase/locustTestResults';
 
+import DeploymentIntro from './items/deploymentFase/intro';
+import DockerContainer from './items/deploymentFase/dockerContainer';
+import ConnectionString from './items/deploymentFase/connectionString';
+import KubernetesDeployment from './items/deploymentFase/kubernetesDeployment';
+
 
 
 export default function TimeLine() {
@@ -40,6 +45,11 @@ export default function TimeLine() {
         EndToEndTesting,
         PerformanceTesting,
         LocusttestResults,
+        
+        DeploymentIntro,
+        DockerContainer,
+        ConnectionString,
+        KubernetesDeployment,
     ];
     
     return (
