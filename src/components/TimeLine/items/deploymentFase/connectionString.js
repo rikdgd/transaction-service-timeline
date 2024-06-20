@@ -9,7 +9,7 @@ const paragraphs = [
     communiceren. De applicatie ontvangt deze connection string via een environment variable.",
     "Deze connection string moet uiteraard geheim blijven en kan dus niet hardcoded meegegeven worden via de dockerfile. \
     De keuze is gemaakt om simpelweg de connection string handmatig mee te geven aan de container, wanneer hij gerunt wordt. \
-    Dit is niet de makkelijkste manier voor ontwikkelaars om dit aan te pakken, maar wel een van de veiligste."
+    Dit is niet de makkelijkste manier voor ontwikkelaars om dit aan te pakken, maar wel een van de veiligste.",
 ];
 
 const item = manager.createItemFromProps(
