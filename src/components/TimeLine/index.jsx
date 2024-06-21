@@ -3,6 +3,9 @@ import './timeline.css';
 
 import AnalyseIntro from './items/analyseFase/analyseIntro';
 import AnalyseConclusie from './items/analyseFase/analyseConclusie'
+import AnalyseCreditRisicos from './items/analyseFase/analyseMisfunctions';
+import AnalyseMisuseCases from './items/analyseFase/misuseCases';
+import AnalyseAntiMisuseCases from './items/analyseFase/antiMisuseCases';
 
 import DesignIntro from './items/designFase/designInto'
 import DesignMicroservices from './items/designFase/designMicroserviceChanges';
@@ -30,6 +33,9 @@ export default function TimeLine() {
     const items = [
         AnalyseIntro,
         AnalyseConclusie,
+        AnalyseCreditRisicos,
+        AnalyseMisuseCases,
+        AnalyseAntiMisuseCases,
         
         DesignIntro,
         DesignMicroservices,

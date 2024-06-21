@@ -12,8 +12,7 @@ const cardParagraphs = [
     
     "Credits hebben een probleem: het risico op verdachte activiteit. Aangezien credits geld kosten om aan te schaffen\
     zullen er zat gebruikers zijn die deze op een niet legitieme manier willen verkrijgen. Daarnaast is het voor gebruikers\
-    wel zo prettig als zij kunnen terugkijken waar zij precies hun credits aan hebben uitgegegeven.\
-    ",
+    wel zo prettig als zij kunnen terugkijken waar zij precies hun credits aan hebben uitgegegeven.",
 ];
 
 
