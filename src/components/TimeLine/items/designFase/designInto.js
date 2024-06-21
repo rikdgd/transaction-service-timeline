@@ -1,5 +1,4 @@
 import ItemManager from "../itemManager";
-import TransactionClassImage from '../../../../assets/transaction-class.png';
 
 const manager = new ItemManager;
 
@@ -16,7 +15,7 @@ const item = manager.createItemFromProps(
     null,
     null,
     paragraphs,
-    TransactionClassImage,
+    null,
     null,
 );
 

@@ -11,7 +11,8 @@ const item = manager.createItemFromProps(
     "C3 diagram met de transaction service toegevoegd",
     null,
     null,
-    null,
+    "Om de security van de transaction service (en alle andere services) te waarborgen wordt deze achter een API Gateway \
+    gezet. In de gateway kunnen requests gecontrolleeerd worden voordat ze worden doorverwezen naar de juiste service.",
     c3Diagram,
     null,
 );
