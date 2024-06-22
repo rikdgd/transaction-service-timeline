@@ -15,6 +15,7 @@ import MogelijkeAanpassingen from './items/designFase/mogelijkeAanpassingen';
 import OntwikkelIntro from './items/ontwikkelFase/ontwikkelIntro';
 import TransactionStruct from './items/ontwikkelFase/transacionStruct';
 import TransactionDBEntry from './items/ontwikkelFase/transactionEntry';
+import TransactionPostModel from './items/ontwikkelFase/transactionPostModel';
 
 import TestingIntro from './items/testFase/intro';
 import UnitTesting from './items/testFase/unitTesting';
@@ -44,6 +45,7 @@ export default function TimeLine() {
         MogelijkeAanpassingen,
         OntwikkelIntro,
         TransactionStruct,
+        TransactionPostModel,
         TransactionDBEntry,
         
         TestingIntro,
@@ -68,7 +70,7 @@ export default function TimeLine() {
                 theme={{
                     primary: '#88D498',
                     secondary: '#1A936F',
-                    cardBgColor: 'white',
+                    cardBgColor: '#F5F5F5',
                     titleColor: '#C6DABF',
                     titleColorActive: '#F3E9D2',
                 }}
