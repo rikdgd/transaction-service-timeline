@@ -17,7 +17,8 @@ const item = manager.createItemFromProps(
     null,
     "Uitrekenen van gebruikers balans",
     null,
-    null,
+    "Het niet correct uitrekenen van een gebruikers huidige credits kan leiden tot gebruikers die aankopen maken zonder hier \
+    de credits voor te bezitten.",
     paragraphs,
     null,
     null,

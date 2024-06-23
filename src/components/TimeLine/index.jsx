@@ -22,6 +22,7 @@ import UnitTesting from './items/testFase/unitTesting';
 import EndToEndTesting from './items/testFase/endToEndTesting';
 import PerformanceTesting from './items/testFase/performanceTesting';
 import LocusttestResults from './items/testFase/locustTestResults';
+import SnykTesting from './items/testFase/snykTesting';
 
 import DeploymentIntro from './items/deploymentFase/intro';
 import DockerContainer from './items/deploymentFase/dockerContainer';
@@ -53,6 +54,7 @@ export default function TimeLine() {
         EndToEndTesting,
         PerformanceTesting,
         LocusttestResults,
+        SnykTesting,
         
         DeploymentIntro,
         DockerContainer,

@@ -17,7 +17,7 @@ const item = manager.createItemFromProps(
     null,
     "Aanmaken van transacties",
     null,
-    null,
+    "Incorrecte transacties moeten worden afgewezen om misbruik te voorkomen.",
     paragraphs,
     null,
     null,
